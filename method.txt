@@ -11,3 +11,11 @@ npm install debug
 //set DEBUG=* & node app.js
 //set DEBUG=app & node app.js
 npm install morgan
+ใส่ 
+"start": "set DEBUG=app & node app.js",
+"debug": "set DEBUG=* & node app.js",
+ในpackage.json เพื่อrunคำสั่งใด้ง่ายขึ้น
+npm install nodemon
+แก้
+"start": "set DEBUG=app & nodemon app.js",
+"debug": "set DEBUG=* & nodemon app.js",
