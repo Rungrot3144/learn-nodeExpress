@@ -19,3 +19,4 @@ npm install nodemon
 แก้
 "start": "set DEBUG=app & nodemon app.js",
 "debug": "set DEBUG=* & nodemon app.js",
+npm install ejs เพื่อใช้งาน EJS
